@@ -38,3 +38,9 @@ body {
   height: 60px;
   box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
 }
+.sidebar.logo a {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: none;
+}
