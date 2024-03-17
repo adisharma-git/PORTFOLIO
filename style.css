@@ -1,0 +1,48 @@
+/* starting from scratch again */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav li {
+  list-style: none;
+  margin-left: 30px;
+}
+.nav li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  border-radius: 24px;
+}
+.nav li a:hover,
+.nav li a.active {
+  background: rgb(77, 84, 136);
+}
